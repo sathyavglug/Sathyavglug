@@ -1,0 +1,47 @@
+# string methods in py:
+
+name = "sathiyamurthy"
+print(len(name))
+print(name.upper())
+print(name.capitalize())
+print(name.title())
+print(name.isalnum())
+print(name.isdigit())
+print(name.lower())
+
+# striping
+
+name = "  sathiyamurthy  "
+print(name.strip())
+print(name.lstrip())
+print(name.rstrip())
+
+# slicing
+
+name = "sathiyamurthy"
+print(name[0:7])
+print(name[0:])
+print(name[:7])
+print(name[4:8])
+
+# replacing
+
+print(name.replace("murthy", "vglug"))
+
+# spliting
+
+name="sathiya,murthy,vglug"
+print(name.split("," ))
+
+negative indexing
+
+name = "sathiyamurthy"
+print(name[-13:-6])
+
+# string formatting
+
+
+name = "Sathiya"
+age=18
+print(f"my name is {name} and age is {age}")
+print("my  name is %s, Iam %d years old " %(name,age))
